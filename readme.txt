@@ -1,3 +1,4 @@
+****
 1、安装python2.7
 并且用到python的几个模块，mysql-connector, mysql-python, pymssql, cx_Oracle，请自行安装
 
