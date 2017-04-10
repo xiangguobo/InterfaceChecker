@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - zjsltdyy@116.62.6.109" uuid="8afc8fe0-8216-4a5b-b620-c3a03fb5dc83">
+    <database-info product="MySQL" version="5.6.31" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+      <schema id="1" name="zjsltdyy">
+        <visible>1</visible>
+      </schema>
+      <table id="2" parent="1" name="eng_cf"/>
+      <table id="3" parent="1" name="eng_cf_item"/>
+      <table id="4" parent="1" name="eng_value"/>
+      <table id="5" parent="1" name="his_product"/>
+      <view id="6" parent="1" name="base_product"/>
+      <view id="7" parent="1" name="his_patient"/>
+      <view id="8" parent="1" name="opt_outpatient"/>
+      <view id="9" parent="1" name="opt_recipe"/>
+      <view id="10" parent="1" name="opt_recipe_drug"/>
+      <column id="11" parent="2" name="id">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="12" parent="2" name="depart_id">
+        <data-type>VARCHAR(135)|12</data-type>
+      </column>
+      <column id="13" parent="2" name="department">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="14" parent="2" name="bed_no">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="15" parent="2" name="age">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="16" parent="2" name="pres_type">
+        <data-type>VARCHAR(135)|12</data-type>
+      </column>
+      <column id="17" parent="2" name="pres_date_time">
+        <data-type>VARCHAR(135)|12</data-type>
+      </column>
+      <column id="18" parent="2" name="sex">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="19" parent="2" name="pay_type">
+        <data-type>VARCHAR(435)|12</data-type>
+      </column>
+      <column id="20" parent="2" name="patient_no">
+        <data-type>VARCHAR(195)|12</data-type>
+      </column>
+      <column id="21" parent="2" name="pres_no">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="22" parent="2" name="name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="23" parent="2" name="diagnose">
+        <data-type>VARCHAR(1500)|12</data-type>
+      </column>
+      <column id="24" parent="2" name="address">
+        <data-type>VARCHAR(600)|12</data-type>
+      </column>
+      <column id="25" parent="2" name="id_card">
+        <data-type>VARCHAR(120)|12</data-type>
+      </column>
+      <column id="26" parent="2" name="phone_no">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="27" parent="2" name="height">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="28" parent="2" name="create_date">
+        <data-type>DATETIME(19)|93</data-type>
+      </column>
+      <column id="29" parent="2" name="update_date">
+        <data-type>DATETIME(19)|93</data-type>
+      </column>
+      <column id="30" parent="2" name="message">
+        <data-type>VARCHAR(7500)|12</data-type>
+      </column>
+      <column id="31" parent="2" name="xml_string">
+        <data-type>TEXT(65535)|-1</data-type>
+      </column>
+      <column id="32" parent="2" name="weight">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="33" parent="2" name="birth_weight">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="34" parent="2" name="ccr">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="35" parent="2" name="allergy_list">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="36" parent="2" name="pregnancy">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="37" parent="2" name="time_of_preg">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="38" parent="2" name="breast_feeding">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="39" parent="2" name="dialysis">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="40" parent="2" name="prox_name">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="41" parent="2" name="prox_id_card">
+        <data-type>VARCHAR(120)|12</data-type>
+      </column>
+      <column id="42" parent="2" name="doc_id">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="43" parent="2" name="doc_name">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="44" parent="2" name="total_amount">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="45" parent="2" name="pres_source">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="46" parent="2" name="pharm_audt_id">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="47" parent="2" name="pharm_pre_id">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="48" parent="2" name="pharm_pre_name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="49" parent="2" name="pharm_chk_id">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="50" parent="2" name="pharm_chk_name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="51" parent="2" name="pharm_delv_id">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="52" parent="2" name="pharm_delv_name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="53" parent="2" name="pharm_audt_name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="54" parent="2" name="doc_title">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="55" parent="2" name="scr">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="56" parent="2" name="notes">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="57" parent="2" name="district">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="58" parent="2" name="pres_date">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="59" parent="2" name="flag1">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="60" parent="2" name="flag2">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="61" parent="2" name="flag3">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="62" parent="2" name="note_amount">
+        <data-type>DOUBLE(22)|8</data-type>
+      </column>
+      <column id="63" parent="2" name="event_no">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="64" parent="2" name="tranWeight">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="65" parent="2" name="zone_id">
+        <data-type>INT(10)|4</data-type>
+      </column>
+      <column id="66" parent="2" name="bsa">
+        <data-type>VARCHAR(48)|12</data-type>
+      </column>
+      <column id="67" parent="2" name="tranHeight">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="68" parent="3" name="cfid">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="69" parent="3" name="drug">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="70" parent="3" name="drug_name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="71" parent="3" name="reg_name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="72" parent="3" name="spec">
+        <data-type>VARCHAR(90)|12</data-type>
+      </column>
+      <column id="73" parent="3" name="pack">
+        <data-type>VARCHAR(90)|12</data-type>
+      </column>
+      <column id="74" parent="3" name="quantity">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="75" parent="3" name="pack_unit">
+        <data-type>VARCHAR(90)|12</data-type>
+      </column>
+      <column id="76" parent="3" name="unit_price">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="77" parent="3" name="amount">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="78" parent="3" name="group_no">
+        <data-type>VARCHAR(135)|12</data-type>
+      </column>
+      <column id="79" parent="3" name="first_use">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="80" parent="3" name="prep_form">
+        <data-type>VARCHAR(120)|12</data-type>
+      </column>
+      <column id="81" parent="3" name="admin_route">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="82" parent="3" name="admin_area">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="83" parent="3" name="admin_frequency">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="84" parent="3" name="admin_dose">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="85" parent="3" name="admin_method">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="86" parent="3" name="id">
+        <data-type>VARCHAR(450)|12</data-type>
+      </column>
+      <column id="87" parent="3" name="create_date">
+        <data-type>DATETIME(19)|93</data-type>
+      </column>
+      <column id="88" parent="3" name="update_date">
+        <data-type>DATETIME(19)|93</data-type>
+      </column>
+      <column id="89" parent="3" name="drug_name_bak">
+        <data-type>VARCHAR(435)|12</data-type>
+      </column>
+      <column id="90" parent="3" name="manufacturer_name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="91" parent="3" name="skin_test">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="92" parent="3" name="type">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="93" parent="3" name="start_date">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="94" parent="3" name="special_promote">
+        <data-type>VARCHAR(600)|12</data-type>
+      </column>
+      <column id="95" parent="3" name="adminGoal">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="96" parent="3" name="zone_id">
+        <data-type>INT(10)|4</data-type>
+      </column>
+      <column id="97" parent="3" name="kjywbj">
+        <data-type>TINYINT(3)|-6</data-type>
+      </column>
+      <column id="98" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(10)|12</data-type>
+      </column>
+      <column id="99" parent="4" name="var_id">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(10)|12</data-type>
+      </column>
+      <column id="100" parent="4" name="value">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(45)|12</data-type>
+      </column>
+      <column id="101" parent="4" name="alias">
+        <data-type>VARCHAR(5000)|12</data-type>
+      </column>
+      <column id="102" parent="4" name="create_date">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(19)|93</data-type>
+      </column>
+      <column id="103" parent="4" name="update_date">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(19)|93</data-type>
+      </column>
+      <key id="104" parent="4" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="105" parent="5" name="id">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="106" parent="5" name="drug_id">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="107" parent="5" name="drug_name">
+        <data-type>VARCHAR(100)|12</data-type>
+      </column>
+      <column id="108" parent="5" name="py">
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="109" parent="5" name="spec_id">
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="110" parent="5" name="spec_name">
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="111" parent="5" name="unit">
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="112" parent="5" name="prep_id">
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="113" parent="5" name="prep_name">
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="114" parent="5" name="price">
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="115" parent="5" name="Manufacturer_id">
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="116" parent="5" name="Manufacturer_name">
+        <data-type>VARCHAR(100)|12</data-type>
+      </column>
+      <column id="117" parent="5" name="create_date">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(19)|93</data-type>
+      </column>
+      <column id="118" parent="5" name="update_date">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(19)|93</data-type>
+      </column>
+      <column id="119" parent="5" name="status">
+        <data-type>VARCHAR(1)|12</data-type>
+      </column>
+      <column id="120" parent="5" name="instruction">
+        <data-type>VARCHAR(100)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="121" parent="5" name="ddd">
+        <data-type>DOUBLE(22)|8</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <column id="122" parent="5" name="falg1">
+        <data-type>VARCHAR(1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="123" parent="5" name="ddd_unit">
+        <data-type>VARCHAR(50)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="124" parent="5" name="code">
+        <data-type>VARCHAR(500)|12</data-type>
+      </column>
+      <column id="125" parent="5" name="flag1">
+        <data-type>VARCHAR(1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="126" parent="5" name="flag2">
+        <data-type>VARCHAR(1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="127" parent="5" name="flag3">
+        <data-type>VARCHAR(1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="128" parent="5" name="flag4">
+        <data-type>VARCHAR(1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="129" parent="5" name="spec">
+        <data-type>VARCHAR(500)|12</data-type>
+      </column>
+      <column id="130" parent="5" name="pro_id">
+        <data-type>VARCHAR(50)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="131" parent="5" name="manufacturer">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="132" parent="5" name="register_no">
+        <comment>批准文号</comment>
+        <data-type>VARCHAR(64)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="133" parent="5" name="pro_prep">
+        <data-type>VARCHAR(64)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="134" parent="5" name="pro_name">
+        <data-type>VARCHAR(128)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="135" parent="5" name="pro_py">
+        <data-type>VARCHAR(128)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="136" parent="5" name="is_ignore">
+        <comment>状态:0正常,1忽略</comment>
+        <data-type>INT(10)|4</data-type>
+        <default-expression>0</default-expression>
+      </column>
+      <index id="137" parent="5" name="code">
+        <columns>code</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="138" parent="5" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="139" parent="6" name="hospital_code">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(9)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="140" parent="6" name="Drug_Id">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="141" parent="6" name="Drug_Name">
+        <data-type>VARCHAR(100)|12</data-type>
+      </column>
+      <column id="142" parent="6" name="Register_No">
+        <comment>批准文号</comment>
+        <data-type>VARCHAR(64)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="143" parent="6" name="Drug_Brand_Name">
+        <data-type>VARCHAR(128)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="144" parent="6" name="Producer_Id">
+        <data-type>VARCHAR(50)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="145" parent="6" name="Producter_name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="146" parent="6" name="Specification">
+        <data-type>VARCHAR(500)|12</data-type>
+      </column>
+      <column id="147" parent="6" name="Content_Unit">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="148" parent="6" name="Content_Spec">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="149" parent="6" name="Preparation">
+        <data-type>VARCHAR(64)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="150" parent="6" name="Pack_Spec">
+        <data-type>VARCHAR(45)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="151" parent="6" name="Pack_Unit">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="152" parent="6" name="Count_Unit">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="153" parent="6" name="User_Drug_Property">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="154" parent="6" name="Antibacterial">
+        <data-type>VARCHAR(1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="155" parent="6" name="Essential_Drug">
+        <data-type>VARCHAR(1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="156" parent="6" name="Last_Modify_Time">
+        <mandatory>1</mandatory>
+        <data-type>DATETIME(19)|93</data-type>
+      </column>
+      <column id="157" parent="7" name="hospital_code">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(9)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="158" parent="7" name="Patient_Id">
+        <data-type>VARCHAR(195)|12</data-type>
+      </column>
+      <column id="159" parent="7" name="Sex">
+        <data-type>VARCHAR(1)|12</data-type>
+      </column>
+      <column id="160" parent="7" name="NAME">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="161" parent="7" name="Id_type">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(3)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="162" parent="7" name="Id_No">
+        <data-type>VARCHAR(120)|12</data-type>
+      </column>
+      <column id="163" parent="7" name="Birth_Weight">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="164" parent="7" name="Birthday">
+        <data-type>VARCHAR(29)|12</data-type>
+      </column>
+      <column id="165" parent="7" name="Nationality">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="166" parent="7" name="Native_place">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="167" parent="7" name="Last_Modify_Time">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(10)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="168" parent="8" name="hospital_code">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(9)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="169" parent="8" name="event_no">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="170" parent="8" name="patient_no">
+        <data-type>VARCHAR(195)|12</data-type>
+      </column>
+      <column id="171" parent="8" name="Event_Time">
+        <data-type>VARCHAR(135)|12</data-type>
+      </column>
+      <column id="172" parent="8" name="Dept_Id">
+        <data-type>VARCHAR(135)|12</data-type>
+      </column>
+      <column id="173" parent="8" name="Dept_Name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="174" parent="8" name="pay_type">
+        <data-type>VARCHAR(435)|12</data-type>
+      </column>
+      <column id="175" parent="8" name="Is_Pregnant">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="176" parent="8" name="time_of_preg">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="177" parent="8" name="Is_Breast_Feeding">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="178" parent="8" name="height">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="179" parent="8" name="weight">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="180" parent="8" name="address">
+        <data-type>VARCHAR(600)|12</data-type>
+      </column>
+      <column id="181" parent="8" name="phone_no">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="182" parent="8" name="ccr">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="183" parent="8" name="dialysis">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="184" parent="8" name="allergy_list">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="185" parent="8" name="Marital">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="186" parent="8" name="Occupation">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="187" parent="8" name="isAppointed">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="188" parent="8" name="Med_Card_Type">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="189" parent="8" name="Med_Card_No">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="190" parent="8" name="Visit_Type">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="191" parent="8" name="Main_Suit">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="192" parent="8" name="Symptom_Info">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="193" parent="8" name="Medical_History">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="194" parent="8" name="Genetic_Polymorphism">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="195" parent="8" name="Special_Constitution">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="196" parent="8" name="Last_Modify_Time">
+        <data-type>VARCHAR(135)|12</data-type>
+      </column>
+      <column id="197" parent="9" name="hospital_code">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(9)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="198" parent="9" name="Recipe_Id">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="199" parent="9" name="event_no">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="200" parent="9" name="Recipe_No">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="201" parent="9" name="Patient_Id">
+        <data-type>VARCHAR(195)|12</data-type>
+      </column>
+      <column id="202" parent="9" name="Hospital_Diag_Code">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="203" parent="9" name="ICD_Code">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="204" parent="9" name="Hospital_Diag_Name">
+        <data-type>VARCHAR(1500)|12</data-type>
+      </column>
+      <column id="205" parent="9" name="Recipe_Status">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="206" parent="9" name="Recipe_Source">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="207" parent="9" name="Recipe_Type">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="208" parent="9" name="Recipe_Category">
+        <data-type>VARCHAR(4)|12</data-type>
+      </column>
+      <column id="209" parent="9" name="Dept_Id">
+        <data-type>VARCHAR(135)|12</data-type>
+      </column>
+      <column id="210" parent="9" name="Dept_Name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="211" parent="9" name="Recipe_Doc_Title">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="212" parent="9" name="Recipe_Doc_Id">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="213" parent="9" name="Recipe_Doc_Name">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="214" parent="9" name="Recipe_Time">
+        <data-type>VARCHAR(135)|12</data-type>
+      </column>
+      <column id="215" parent="9" name="Check_Pharm_Id">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="216" parent="9" name="Check_Pharm_Name">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="217" parent="9" name="Check_Pharm_Title">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="218" parent="9" name="Check_Time">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="219" parent="9" name="Prep_Pharm_Id">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="220" parent="9" name="Prep_Pharm_Name">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="221" parent="9" name="Prep_Pharm_Title">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="222" parent="9" name="Prep_Time">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="223" parent="9" name="Despensing_Pharm_Id">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="224" parent="9" name="Despensing_Pharm_Name">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="225" parent="9" name="Despensing_Doc_Title">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="226" parent="9" name="Despensing_Time">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="227" parent="9" name="Pharmacy_Name">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="228" parent="9" name="Fee_Staff_Id">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="229" parent="9" name="Fee_Staff_Name">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="230" parent="9" name="Fee_Taken_Time">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="231" parent="9" name="Fee_Form_No">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="232" parent="9" name="Receipt_No">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="233" parent="9" name="Herb_Unit_Price">
+        <data-type>DOUBLE(22)|8</data-type>
+      </column>
+      <column id="234" parent="9" name="Herb_Packet_Count">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="235" parent="9" name="Herb_Prep_Amount">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="236" parent="9" name="Herb_Admin_Route_Name">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="237" parent="9" name="Herb_Day_Dose">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="238" parent="9" name="Herb_Treat_Duration">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="239" parent="9" name="Herb_Formulation_Name">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="240" parent="9" name="Herb_Use_Info">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="241" parent="9" name="Herb_Use_Prompt">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="242" parent="9" name="Recipe_Fee_Total">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="243" parent="9" name="Last_Modify_Time">
+        <data-type>VARCHAR(135)|12</data-type>
+      </column>
+      <column id="244" parent="10" name="hospital_code">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(9)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="245" parent="10" name="Recipe_Item_Id">
+        <data-type>VARCHAR(450)|12</data-type>
+      </column>
+      <column id="246" parent="10" name="Recipe_Id">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="247" parent="10" name="First_Use">
+        <data-type>VARCHAR(30)|12</data-type>
+      </column>
+      <column id="248" parent="10" name="Minor_Flag">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="249" parent="10" name="Dept_Use_Only">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="250" parent="10" name="Group_No">
+        <data-type>VARCHAR(135)|12</data-type>
+      </column>
+      <column id="251" parent="10" name="Drug_ID">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="252" parent="10" name="Drug_Name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="253" parent="10" name="User_Drug_Property">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="254" parent="10" name="Register_Code">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="255" parent="10" name="Drug_Brand_Name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="256" parent="10" name="Count_Unit">
+        <data-type>VARCHAR(90)|12</data-type>
+      </column>
+      <column id="257" parent="10" name="Pack_unit">
+        <data-type>VARCHAR(90)|12</data-type>
+      </column>
+      <column id="258" parent="10" name="Producer_ID">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="259" parent="10" name="Producer_Name">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="260" parent="10" name="Drug_Dose">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="261" parent="10" name="Drug_Admin_Route_Name">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="262" parent="10" name="Drug_Using_Freq">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="263" parent="10" name="Drug_using_Opporunity">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="264" parent="10" name="Drug_Using_Aim">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="265" parent="10" name="Drug_Using_Area">
+        <data-type>VARCHAR(150)|12</data-type>
+      </column>
+      <column id="266" parent="10" name="Drug_Treatment_Course">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="267" parent="10" name="Preparation_Name">
+        <data-type>VARCHAR(120)|12</data-type>
+      </column>
+      <column id="268" parent="10" name="Specification">
+        <data-type>VARCHAR(90)|12</data-type>
+      </column>
+      <column id="269" parent="10" name="Price">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="270" parent="10" name="Despensing_Num">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="271" parent="10" name="Fee_Total">
+        <data-type>VARCHAR(60)|12</data-type>
+      </column>
+      <column id="272" parent="10" name="Start_time">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="273" parent="10" name="End_Time">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="274" parent="10" name="Approval_Time">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="275" parent="10" name="Approval_Staff_ID">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="276" parent="10" name="Approval_Staff_Name">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="277" parent="10" name="Special_Prompt">
+        <mandatory>1</mandatory>
+        <data-type>CHAR(0)|1</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="278" parent="10" name="Skin_Test_Flag">
+        <data-type>VARCHAR(1)|12</data-type>
+      </column>
+      <column id="279" parent="10" name="Skin_Test_Info">
+        <data-type>VARCHAR(300)|12</data-type>
+      </column>
+      <column id="280" parent="10" name="Cancel_Flag">
+        <mandatory>1</mandatory>
+        <data-type>VARCHAR(1)|12</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="281" parent="10" name="Last_Modify_Time">
+        <data-type>DATETIME(19)|93</data-type>
+      </column>
+    </database-model>
+  </data-source>
+</component>
